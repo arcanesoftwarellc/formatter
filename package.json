@@ -1,6 +1,6 @@
 {
     "name": "@arcanist-ui/formatter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "formatter for @arcanist-ui",
     "main": "./src/.prettierrc.js",
     "prettier": "./src/.prettierrc.js",
