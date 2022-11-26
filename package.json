@@ -1,15 +1,23 @@
 {
     "name": "@arcanist-ui/formatter",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "formatter for @arcanist-ui",
     "main": "./src/.prettierrc.js",
     "prettier": "./src/.prettierrc.js",
     "scripts": {
         "postinstall": "node ./src/setup.js"
     },
-    "author": "Arcane Software LLC",
-    "license": "UNLICENSED",
     "dependencies": {
         "@arcanist-ui/setup-utils": "^0.0.3"
+    },
+    "author": "Arcane Software LLC",
+    "license": "UNLICENSED",
+    "homepage": "https://github.com/arcanesoftwarellc/formatter#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arcanesoftwarellc/formatter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/arcanesoftwarellc/formatter/issues"
     }
 }
