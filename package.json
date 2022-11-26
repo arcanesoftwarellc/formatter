@@ -5,12 +5,11 @@
     "main": "./src/.prettierrc.js",
     "prettier": "./src/.prettierrc.js",
     "scripts": {
-        "postinstall": "node ./src/setup.js",
-        "publish": "npm publish --access public"
+        "postinstall": "node ./src/setup.js"
     },
     "author": "Arcane Software LLC",
     "license": "UNLICENSED",
     "dependencies": {
-        "@arcanist-ui/setup-utils": "^0.0.1"
+        "@arcanist-ui/setup-utils": "^0.0.3"
     }
 }
